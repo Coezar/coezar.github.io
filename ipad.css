@@ -1,0 +1,6 @@
+@media screen and (max-width: 1087px) {
+    body {
+      max-width: 1087px;
+      max-height: fit-content;
+    }
+}
