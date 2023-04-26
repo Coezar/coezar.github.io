@@ -5,7 +5,7 @@ function fadeIn() {
     var interval = setInterval(function () {
         if (opacity < 1) {
             opacity = opacity + 0.05
-            document.getElementById("body").style.opacity = opacity;
+            document.getElementById("content-box").style.opacity = opacity;
         } else {
             clearInterval(interval)
         }
